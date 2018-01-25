@@ -24,6 +24,12 @@
     <ClInclude Include="Shouter.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="Uppgift1.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Talker.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="SoundProducer.cpp">
@@ -36,6 +42,9 @@
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="Shouter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Uppgift1.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

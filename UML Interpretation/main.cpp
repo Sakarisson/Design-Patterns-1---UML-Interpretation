@@ -1,12 +1,11 @@
-#include "Whisperer.h"
-#include "Shouter.h"
+#include "Uppgift1.h"
 
 int main() {
-    SoundProducer* sound = new Whisperer();
-    sound->makeSound();
-    delete sound;
-    sound = new Shouter();
-    sound->makeSound();
-    delete sound;
+    Uppgift1 uppg1;
+    uppg1.saySomething();
+    uppg1.setSoundProducer(new Whisperer);
+    uppg1.saySomething();
+    uppg1.setSoundProducer(new Shouter);
+    uppg1.saySomething();
     return 0;
 }

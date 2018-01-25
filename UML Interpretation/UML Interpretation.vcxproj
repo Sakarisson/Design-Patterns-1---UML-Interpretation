@@ -113,12 +113,15 @@
   <ItemGroup>
     <ClInclude Include="Shouter.h" />
     <ClInclude Include="SoundProducer.h" />
+    <ClInclude Include="Talker.h" />
+    <ClInclude Include="Uppgift1.h" />
     <ClInclude Include="Whisperer.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp" />
     <ClCompile Include="Shouter.cpp" />
     <ClCompile Include="SoundProducer.cpp" />
+    <ClCompile Include="Uppgift1.cpp" />
     <ClCompile Include="Whisperer.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
