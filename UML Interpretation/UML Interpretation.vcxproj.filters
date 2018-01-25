@@ -18,12 +18,24 @@
     <ClInclude Include="SoundProducer.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="Whisperer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Shouter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="SoundProducer.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Whisperer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Shouter.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

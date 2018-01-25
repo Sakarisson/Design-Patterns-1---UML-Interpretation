@@ -1,6 +1,12 @@
-#include <iostream>
+#include "Whisperer.h"
+#include "Shouter.h"
 
 int main() {
-    std::cout << "Hello world" << std::endl;
+    SoundProducer* sound = new Whisperer();
+    sound->makeSound();
+    delete sound;
+    sound = new Shouter();
+    sound->makeSound();
+    delete sound;
     return 0;
 }

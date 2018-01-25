@@ -1,12 +1,7 @@
 #include "SoundProducer.h"
 
 SoundProducer::SoundProducer(std::string nameOfSound) {
-
-}
-
-
-SoundProducer::~SoundProducer() {
-
+    soundName = nameOfSound;
 }
 
 std::string SoundProducer::getSoundName() const {

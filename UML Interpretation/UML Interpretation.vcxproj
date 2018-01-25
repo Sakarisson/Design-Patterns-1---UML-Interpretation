@@ -111,11 +111,15 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="Shouter.h" />
     <ClInclude Include="SoundProducer.h" />
+    <ClInclude Include="Whisperer.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="Shouter.cpp" />
     <ClCompile Include="SoundProducer.cpp" />
+    <ClCompile Include="Whisperer.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
